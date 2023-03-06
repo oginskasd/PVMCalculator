@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-header {
+    @apply text-2xl text-red-600 my-4 mx-4
+}
+
+.waves-bg {
+    background-image: url("/img/img-transparent-waves-color.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
